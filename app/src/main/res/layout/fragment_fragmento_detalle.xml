@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".vista.FragmentoDetalle">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtDetalleId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/id"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtDetalleAuthor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/author"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtDetalleCountry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/country"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtDetalleLanguage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/language"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtDetalleLink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/link"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtDetallePages"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pages"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtDetalleTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtDetalleYear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/year"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtDetallePrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/price"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtDetalleLastPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lastprice"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtDetalleDelivey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/delivery"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/imagenDetalle"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+        <Button
+            android:id="@+id/btnEnviar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/enviar_e_mail"
+            android:textSize="20sp" />
+
+    </ScrollView>
+
+</LinearLayout>
